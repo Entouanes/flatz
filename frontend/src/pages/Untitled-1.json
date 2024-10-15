@@ -1,0 +1,255 @@
+[
+  {
+    "id": "region.279788",
+    "type": "Feature",
+    "place_type": [
+      "region"
+    ],
+    "relevance": 1,
+    "properties": {
+      "mapbox_id": "dXJuOm1ieHBsYzpCRVRz",
+      "wikidata": "Q1588",
+      "short_code": "US-LA"
+    },
+    "text": "Louisiana",
+    "place_name": "Louisiana, United States",
+    "bbox": [
+      -94.043352,
+      28.830565335,
+      -88.728413701,
+      33.019618
+    ],
+    "center": [
+      -92.305998069584,
+      30.9374993015932
+    ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -92.305998069584,
+        30.9374993015932
+      ]
+    },
+    "context": [
+      {
+        "id": "country.8940",
+        "mapbox_id": "dXJuOm1ieHBsYzpJdXc",
+        "wikidata": "Q30",
+        "short_code": "us",
+        "text": "United States"
+      }
+    ]
+  },
+  {
+    "id": "place.6957135",
+    "type": "Feature",
+    "place_type": [
+      "place"
+    ],
+    "relevance": 1,
+    "properties": {
+      "mapbox_id": "dXJuOm1ieHBsYzphaWhQ",
+      "wikidata": "Q84"
+    },
+    "text": "London",
+    "place_name": "London, Greater London, England, United Kingdom",
+    "bbox": [
+      -0.351708,
+      51.384527,
+      0.153177,
+      51.669993
+    ],
+    "center": [
+      -0.127647,
+      51.5073
+    ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.127647,
+        51.5073
+      ]
+    },
+    "context": [
+      {
+        "id": "district.591439",
+        "mapbox_id": "dXJuOm1ieHBsYzpDUVpQ",
+        "wikidata": "Q23306",
+        "text": "Greater London"
+      },
+      {
+        "id": "region.9295",
+        "mapbox_id": "dXJuOm1ieHBsYzpKRTg",
+        "wikidata": "Q21",
+        "short_code": "GB-ENG",
+        "text": "England"
+      },
+      {
+        "id": "country.8783",
+        "mapbox_id": "dXJuOm1ieHBsYzpJazg",
+        "wikidata": "Q145",
+        "short_code": "gb",
+        "text": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "id": "place.192407788",
+    "type": "Feature",
+    "place_type": [
+      "place"
+    ],
+    "relevance": 1,
+    "properties": {
+      "mapbox_id": "dXJuOm1ieHBsYzpDM2ZvN0E",
+      "wikidata": "Q65"
+    },
+    "text": "Los Angeles",
+    "place_name": "Los Angeles, California, United States",
+    "bbox": [
+      -118.52144,
+      33.899991,
+      -118.126728,
+      34.161439
+    ],
+    "center": [
+      -118.24168,
+      34.054077
+    ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -118.24168,
+        34.054077
+      ]
+    },
+    "context": [
+      {
+        "id": "district.14051052",
+        "mapbox_id": "dXJuOm1ieHBsYzoxbWJz",
+        "wikidata": "Q104994",
+        "text": "Los Angeles County"
+      },
+      {
+        "id": "region.419052",
+        "mapbox_id": "dXJuOm1ieHBsYzpCbVRz",
+        "wikidata": "Q99",
+        "short_code": "US-CA",
+        "text": "California"
+      },
+      {
+        "id": "country.8940",
+        "mapbox_id": "dXJuOm1ieHBsYzpJdXc",
+        "wikidata": "Q30",
+        "short_code": "us",
+        "text": "United States"
+      }
+    ]
+  },
+  {
+    "id": "place.193095916",
+    "type": "Feature",
+    "place_type": [
+      "place"
+    ],
+    "relevance": 1,
+    "properties": {
+      "mapbox_id": "dXJuOm1ieHBsYzpDNEpvN0E",
+      "wikidata": "Q43668"
+    },
+    "text": "Louisville",
+    "place_name": "Louisville, Kentucky, United States",
+    "bbox": [
+      -85.947128,
+      38.001255,
+      -85.365223,
+      38.347174
+    ],
+    "center": [
+      -85.75679,
+      38.25523
+    ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -85.75679,
+        38.25523
+      ]
+    },
+    "context": [
+      {
+        "id": "district.11585260",
+        "mapbox_id": "dXJuOm1ieHBsYzpzTWJz",
+        "wikidata": "Q500776",
+        "text": "Jefferson County"
+      },
+      {
+        "id": "region.287980",
+        "mapbox_id": "dXJuOm1ieHBsYzpCR1Rz",
+        "wikidata": "Q1603",
+        "short_code": "US-KY",
+        "text": "Kentucky"
+      },
+      {
+        "id": "country.8940",
+        "mapbox_id": "dXJuOm1ieHBsYzpJdXc",
+        "wikidata": "Q30",
+        "short_code": "us",
+        "text": "United States"
+      }
+    ]
+  },
+  {
+    "id": "locality.25086567",
+    "type": "Feature",
+    "place_type": [
+      "locality"
+    ],
+    "relevance": 1,
+    "properties": {
+      "mapbox_id": "dXJuOm1ieHBsYzpBWDdLWnc",
+      "wikidata": "Q12269549"
+    },
+    "text": "Lowokwaru",
+    "place_name": "Lowokwaru, Malang, East Java, Indonesia",
+    "bbox": [
+      112.569099,
+      -7.966741,
+      112.642667,
+      -7.911282
+    ],
+    "center": [
+      112.63249,
+      -7.963136
+    ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.63249,
+        -7.963136
+      ]
+    },
+    "context": [
+      {
+        "id": "place.2009191",
+        "mapbox_id": "dXJuOm1ieHBsYzpIcWhu",
+        "wikidata": "Q11445",
+        "text": "Malang"
+      },
+      {
+        "id": "region.115815",
+        "mapbox_id": "dXJuOm1ieHBsYzpBY1Ju",
+        "wikidata": "Q3586",
+        "short_code": "ID-JI",
+        "text": "East Java"
+      },
+      {
+        "id": "country.8807",
+        "mapbox_id": "dXJuOm1ieHBsYzpJbWM",
+        "wikidata": "Q252",
+        "short_code": "id",
+        "text": "Indonesia"
+      }
+    ]
+  }
+]
