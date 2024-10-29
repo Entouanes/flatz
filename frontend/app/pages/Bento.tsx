@@ -15,13 +15,16 @@ export default function Component() {
     <div className="p-8 min-h-screen flex items-center justify-center">
       <Card className="w-full max-w-[70rem] shadow-lg bg-white overflow-hidden">
         <div className="flex flex-col md:flex-row">
-          <div className="w-full md:w-1/2 relative aspect-square md:aspect-auto">
+          <div className="flex w-full md:w-1/2 relative aspect-square md:aspect-auto">
             <Image
-              src="https://images.unsplash.com/photo-1727102406027-e7ae00b762b9?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DZZ"
+              src="https://images.unsplash.com/photo-1727513029358-0dce5c26606a?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Placeholder image"
               layout="fill"
               objectFit="cover"
             />
+            <div className="bg-white/10 backdrop-blur-md h-[15rem] w-full absolute bottom-0">
+              {" "}
+            </div>
           </div>
           <div className="w-full md:w-1/2 flex flex-col">
             <CardHeader>
@@ -68,7 +71,7 @@ export default function Component() {
               </div>
             </CardContent>
             <CardFooter className="flex justify-between">
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+              <Button>
                 <Heart className="mr-2 h-4 w-4" /> Like
               </Button>
               <Button variant="outline">
