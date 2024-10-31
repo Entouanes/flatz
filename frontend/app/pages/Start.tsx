@@ -7,8 +7,8 @@ const Start = (props: {
   const { start } = props;
 
   return (
-    <>
-      <div className="flex flex-col gap-8 pt-28">
+    <div className="flex py-[20rem] align-middle justify-center">
+      <div className="content">
         <h1 className="text-4xl font-extrabold">
           A faster way to browse shared flats
         </h1>
@@ -23,7 +23,7 @@ const Start = (props: {
           </Button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

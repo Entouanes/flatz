@@ -7,9 +7,9 @@ import { useState } from "react";
 export default function Home() {
   const [onBoard, setOnboard] = useState(false);
   return (
-    <>{onBoard ? <OnboardLayout steps={3} /> : <Start start={setOnboard} />}</>
-    // <>
-    //   <Bento />
-    // </>
+    //<>{onBoard ? <OnboardLayout steps={3} /> : <Start start={setOnboard} />}</>
+    <>
+      <Bento />
+    </>
   );
 }

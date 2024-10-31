@@ -1,5 +1,4 @@
 import { Progress } from "@/components/ui/progress";
-import "../App.css";
 import { Button } from "@/components/ui/button";
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import Location from "./Location";
@@ -22,7 +21,7 @@ function OnboardLayout(props: { steps: number }) {
   };
 
   return (
-    <div className="flex-col">
+    <div className="content">
       <div className="flex items-center w-full justify-between">
         <div className="flex-none">
           <Button variant={"outline"} onClick={goBack()}>
