@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+"use client";
+
 import {
   Select,
   SelectContent,
@@ -14,8 +16,7 @@ import { useState } from "react";
 import SearchSuggestion from "./SearchSuggestion";
 
 function Location() {
-  const ACCESS_TOKEN =
-    "pk.eyJ1IjoiZW50b3VhbmVzIiwiYSI6ImNsenk3em85ZDB4bGQyeXNhNnY5Nmc0ZXAifQ.QwQp-Z5AywO59kh6DkRxjg";
+  const ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || "";
   const [address, setAddress] = useState({
     streetAndNumber: "",
     place: "",

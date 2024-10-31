@@ -78,7 +78,7 @@ const SearchSuggestion = (props: { setAddress: any; access_token: string }) => {
                   <CommandItem
                     key={suggestion.place_name}
                     value={suggestion.place_name}
-                    onSelect={(currentValue) => {
+                    onSelect={(currentValue: React.SetStateAction<string>) => {
                       setValue(currentValue);
                       setOpen(false);
                       console.log(currentValue);
