@@ -22,9 +22,9 @@ export default function Component() {
               layout="fill"
               objectFit="cover"
             />
-            <div className="bg-white/10 backdrop-blur-md h-[15rem] w-full absolute bottom-0">
+            {/* <div className="bg-white/10 backdrop-blur-md h-[15rem] w-full absolute bottom-0">
               {" "}
-            </div>
+            </div> */}
           </div>
           <div className="w-full md:w-1/2 flex flex-col">
             <CardHeader>
@@ -52,8 +52,8 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p>
-                      Here's some more placeholder content for the second nested
-                      card. Feel free to customize this as needed.
+                      Here is some more placeholder content for the second
+                      nested card. Feel free to customize this as needed.
                     </p>
                   </CardContent>
                 </Card>
@@ -63,8 +63,8 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <p>
-                      Here's some more placeholder content for the second nested
-                      card. Feel free to customize this as needed.
+                      Here is some more placeholder content for the second
+                      nested card. Feel free to customize this as needed.
                     </p>
                   </CardContent>
                 </Card>
@@ -75,7 +75,7 @@ export default function Component() {
                 <Heart className="mr-2 h-4 w-4" /> Like
               </Button>
               <Button variant="outline">
-                Next <ArrowRight className="ml-2 h-4 w-4" />
+                Apply <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </CardFooter>
           </div>
