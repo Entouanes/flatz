@@ -1,7 +1,7 @@
 # main.py
 from fastapi import FastAPI
 
-from backend.api.search_params import SearchParams
+from backend.api.Models import ApplicationForm, SearchParams
 
 app = FastAPI()
 
@@ -24,3 +24,8 @@ async def previous_listing(flat_id: int):
 @app.post("/search-params")
 async def set_search_params(params: SearchParams):
     return params
+
+
+@app.post("/application")
+async def send_application(applicationForm: ApplicationForm):
+    return applicationForm

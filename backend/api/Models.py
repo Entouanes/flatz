@@ -8,3 +8,8 @@ class SearchParams(BaseModel):
     userGender: str
     userDescription: str
     userLanguages: list[str]
+
+
+class ApplicationForm(BaseModel):
+    flatId: int
+    message: str
