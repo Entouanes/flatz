@@ -1,0 +1,37 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000  # Point frontend to the backend API
+    networks:
+      - app-network
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+    volumes:
+      - ./backend:/app  # For live code reload in development
+
+  db:
+    image: nouchka/sqlite3  # Lightweight SQLite image
+    networks:
+      - app-network
+    volumes:
+      - ./data:/data  # Persist SQLite database data
+
+networks:
+  app-network:
+    driver: bridge
